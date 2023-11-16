@@ -1,0 +1,15 @@
+{
+  "name": "pastlife",
+  "version": "1.0.0",
+  "description": "Know About Your Past Life",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tarun Rai",
+  "license": "MIT",
+  "dependencies": {
+    "sillyname": "^0.1.0"
+  }
+}

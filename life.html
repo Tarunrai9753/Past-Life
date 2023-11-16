@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know About Your Previous Life</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<style>
+    body {
+        background-color: black;
+      }
+</style>
+
+<body>
+    <div class="container-sm">
+        <h1 class="fw-bold  text-center" style="color: crimson;" id="knw">KNOW ABOUT YOUR PAST LIFE</h1>
+
+
+        <div class="mt-5" id="removediv">
+            <h4 class="mb-5 text-center text-danger" id="dn">Fill the Input</h4>
+
+            <form novalidate class="needs-validation">
+
+
+                <div class="mb-4">
+                    <input type="text" class="form-control text-danger bg-dark" placeholder="ENTER YOUR FULL NAME"
+                        required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+
+
+
+                <div class="mb-4">
+                    <input type="number" class="form-control text-danger bg-dark" placeholder="ENTER YOUR AGE Like DDMMYYYY"
+                        required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+
+                <div class="mb-4">
+                    <input type="text" class="form-control text-danger bg-dark" placeholder="ENTER YOUR COUNTRY"
+                        required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+
+
+                <div class="mb-4">
+                    <input type="text" class="form-control text-danger bg-dark" placeholder="MARRIED/UNMARRIED"
+                        required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+
+
+
+                <div class="mb-4">
+                    <input type="text" class="form-control text-danger bg-dark" placeholder="WHICH CENTUARY ARE YOU IN"
+                        required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+
+
+
+                <div class="mb-5">
+                    <input type="text" class="form-control text-danger bg-dark" placeholder="YOUR ZODIAC" required />
+                    <div class="valid-feedback">enter the information </div>
+                    <div class="invalid-feedback">Fill Your Input Box to Proceed</div>
+                </div>
+
+            <a href=""><input type="submit" onclick="shans()" class="btn btn-dark text-danger fw-bold mb-5"
+                        style="margin-left: 45%;" value="Calculate" id="showans" /></a>
+            </form>
+        </div>
+        <!-- Don't go past here -->
+    </div>
+
+
+
+
+
+
+
+
+
+    <section id="dblck" style="display: none;">
+
+
+        <div class="container">
+            <div>
+            <h1 class="text-center fw-bold fs-4 mb-5 text-success">In the realm of past lives, your journey begins anew with memories of distant echoes. <br>The threads of
+                your past lives are interwoven, waiting for you to unravel their secret</h1>
+    <h2 class="text-center fs-4 mb-3 text-danger">Details of Your Past Life</h2>
+    </div>
+    
+    
+    <div class="mt-2">
+        <form>
+    
+            <div class="mb-3">
+              <label class="form-label fs-4 fw-bold text-primary" for="name" > Name : <span class="ms-5 text-danger fs-4" id="fullname"></span></label>
+          </div>
+    
+          <div class="mb-3">
+            <label class="form-label fs-4 fw-bold text-primary" for="age" > Age : <span class="ms-5 text-danger" id="age"></span></label>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label fs-4 fw-bold text-primary" for="country" > Country : <span class="ms-5 text-danger" id="country"></span></label>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label fs-4 fw-bold text-primary" for="marriedstatus" > Married Status : <span class="ms-5 text-danger" id="married"></span></label>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label fs-4 fw-bold text-primary" for="centuary" > Centuary : <span class="ms-5 text-danger" id="centuary"></span></label>
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label fs-4 fw-bold text-primary" for="zodiac" > Zodiac : <span class="ms-5 text-danger" id="zodiac"></span></label>
+        </div>
+        </form>
+    </div>
+        </div>
+
+        
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./index.js">
+       
+    </script>
+    <script src="./result.js"></script>
+</body>
+
+</html>
